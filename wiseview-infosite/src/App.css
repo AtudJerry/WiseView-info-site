@@ -1,6 +1,16 @@
 .App {
   text-align: center;
 }
+/* topbar css */
+.topbar{
+  height: 70px;
+  width: 100%;
+  background-color: rgb(38, 38, 38);
+}
+.menubar{
+  float: right;
+}
+
 
 
 
