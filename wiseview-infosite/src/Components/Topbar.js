@@ -19,16 +19,18 @@ const Topbar = () => {
 
     return (
         <div className='topbar'>
-       <div className='menubar'>  <IconButton onClick={handletoggle}>   <MenuOutlinedIcon sx = {{color :"white"}} className='bar'   fontSize='large'/> </IconButton> </div>
+            <h1>W.V </h1> 
+            
+       <div className='menubar'> <IconButton onClick={handletoggle}>   <MenuOutlinedIcon sx = {{color :"white"}} className='bar'   fontSize='large'/> </IconButton> </div>
        <div className='closed'>
         
        <h2>MEMBERS</h2>
-     <IconButton onClick={handletoggle } >  <CloseIcon className='close-icon' sx = {{color :"white"}} /></IconButton>  
+     <IconButton onClick={handletoggle } >  <CloseIcon className='close-icon' sx = {{color :"white"}}  fontSize='large'/></IconButton>  
     
       <Accordion className='accordion-text'>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography className='accordion-text' variant="h5">
-            Steve Yonkeu details
+            Steve Yonkeu <i>details</i>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -43,7 +45,7 @@ const Topbar = () => {
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography className='accordion-text' variant="h5">
-            Atud Jerry details
+            Atud Jerry <i>details</i>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -59,7 +61,7 @@ const Topbar = () => {
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography className='accordion-text' variant="h5">
-          Ndongmo Christian details
+          Ndongmo Christian <i>details</i>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -74,7 +76,7 @@ const Topbar = () => {
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography className='accordion-text' variant="h5">
-          Fotsing Boris details
+          Fotsing Boris <i>details</i>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -89,7 +91,7 @@ const Topbar = () => {
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography className='accordion-text' variant="h5">
-          Manka Velda details
+          Manka Velda <i>details</i>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
