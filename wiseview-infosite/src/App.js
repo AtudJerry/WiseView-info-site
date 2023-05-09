@@ -4,11 +4,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-           <Topbar/>
+    <div>
       <header className="App-header">
-   
-      
+      <Topbar/>
        
       
       </header>
