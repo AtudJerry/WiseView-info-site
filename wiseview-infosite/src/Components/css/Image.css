@@ -12,6 +12,9 @@
 }
 h3{
     font-family: cursive;
+    margin-top: 420px;
+    margin-left: 35px;
+    color:rgb(205, 193, 212)
 }
 
 @media (min-width : 100px) and (max-width : 900px){
@@ -20,10 +23,11 @@ h3{
         background-image: url('../backgroundPicture2.png');
         height: 320px;
         width: 100%;
+        margin-top: 60px;
     }
     .button{
     
-     transform: translate(190px, 158px);
+     transform: translate(20px, 158px);
      position: absolute;
      z-index: 1;
 
@@ -31,8 +35,9 @@ h3{
     h3{
         font-family: cursive;
         font-size: small;
-        transform: translate(10px, 160px);
-        color:white
+        margin-top: 220px;
+        margin-left: 35px;
+        color:rgb(205, 193, 212)
     }
 
 

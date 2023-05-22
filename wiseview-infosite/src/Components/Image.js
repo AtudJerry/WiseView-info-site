@@ -6,7 +6,7 @@ const Image = () => {
         <div className="intro-page">
           
         
-      <Button  color="secondary"  variant="contained" size="large" className="button">Join Us</Button>
+      <Button  color="secondary"  variant="outlined" size="large" className="button">Join Us</Button>
       <h3>A small community to exercise your<br></br> coding skills</h3>
 
 
