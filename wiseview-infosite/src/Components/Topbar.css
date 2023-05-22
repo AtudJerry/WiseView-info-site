@@ -1,0 +1,102 @@
+.textfield1{
+    width: 40%;
+    border-radius: 70px;
+    margin-left: 20%;
+  }
+  a{
+    text-decoration: none;
+  }
+  h8{
+    font-size: 13px;
+    text-align: center;
+  }
+  /* topbar css */
+  .topbar{
+    height: 67px;
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+    
+    
+  }
+  h1{
+    color: white;
+    float: left;
+    margin-top: 10px;
+    font-family: cursive;
+   
+  }
+  i{
+    font-size: 17px;
+  }
+  .menubar{
+    float: right;
+    margin-top: 10px;
+  }
+  .closed{
+    visibility: hidden;
+  }
+  
+  .accordion-text{
+    color: black;
+    
+  }
+  .close-icon{
+    margin-left: 70vw;
+    margin-top: 0px;
+    transform: translateY(-60px);
+  }
+  .closed.opened{
+    width: 80vw;
+    transform: translateY(95px);
+    visibility: visible;
+    background-color: rgb(112, 2, 155) ;
+    color: white;
+    border-radius: 16px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 3px;
+    
+    
+  }
+  
+  
+  
+  
+ 
+  
+  @media (min-width : 100px) and (max-width : 900px){
+    .closed{
+      visibility: hidden; 
+      margin: 30px;
+      transform: translateY(80px);
+    }
+    .close-icon{
+      margin-left: 48vw;
+      margin-top: 0px;
+      transform: translateY(-60px);
+    }
+    .closed.opened{
+      margin: auto;
+      text-align: center;
+      width: 60vw;
+      transform: translateY(60px);
+      visibility: visible;
+      background-color: rgb(112, 2, 155) ;
+      color: white;
+      border-radius: 16px;
+      padding-top: 1px;
+     
+      
+    }
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
