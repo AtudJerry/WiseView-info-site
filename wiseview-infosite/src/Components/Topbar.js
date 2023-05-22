@@ -7,13 +7,13 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import CloseIcon from '@mui/icons-material/Close';
-import './Topbar.css'
+import'./css/Topbar.css'
 
 const Topbar = () => {
 
     const  handletoggle = () =>{
-        const cl = document.querySelector(".closed")
-        cl.classList.toggle("opened")
+        const close = document.querySelector(".closed")
+        close.classList.toggle("opened")
     }
    
 
