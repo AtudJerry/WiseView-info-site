@@ -1,0 +1,41 @@
+.intro-page{
+    background-image: url('../backgroundPicture1.png');
+    height: 700px;
+    width: 100%;
+}
+.button{
+    position: inherit;
+    padding-left: 10px;
+ transform: translate(100px, 400px);
+ z-index: 1;
+
+}
+h3{
+    font-family: cursive;
+}
+
+@media (min-width : 100px) and (max-width : 900px){
+
+    .intro-page{
+        background-image: url('../backgroundPicture2.png');
+        height: 320px;
+        width: 100%;
+    }
+    .button{
+    
+     transform: translate(190px, 158px);
+     position: absolute;
+     z-index: 1;
+
+    }
+    h3{
+        font-family: cursive;
+        font-size: small;
+        transform: translate(10px, 160px);
+        color:white
+    }
+
+
+
+
+}

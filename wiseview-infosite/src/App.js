@@ -1,4 +1,5 @@
 import Topbar from "./Components/Topbar"
+import Image from "./Components/Image";
 import './App.css';
 
 
@@ -7,6 +8,8 @@ function App() {
     <div>
       <header className="App-header">
       <Topbar/>
+      <Image/>
+
       
       
       
