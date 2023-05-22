@@ -7,6 +7,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import CloseIcon from '@mui/icons-material/Close';
+import './Topbar.css'
 
 const Topbar = () => {
 
@@ -22,7 +23,7 @@ const Topbar = () => {
             <h1>W.V </h1> 
             
        <div className='menubar'> <IconButton onClick={handletoggle}>   <MenuOutlinedIcon sx = {{color :"white"}} className='bar'   fontSize='large'/> </IconButton> </div>
-       <div className='closed'>
+        <div className='closed'>
         
        <h2>MEMBERS</h2>
      <IconButton onClick={handletoggle } >  <CloseIcon className='close-icon' sx = {{color :"white"}}  fontSize='large'/></IconButton>  
