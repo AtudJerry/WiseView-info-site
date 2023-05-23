@@ -6,14 +6,25 @@ h2{
 .about{
     padding: 8px;
     text-align: left;
-    height: 200px;
+    height: 600px;
+}
+.link-icons{
+    margin-top: 30%;
+    margin-left: 45%;
 }
 @media (min-width : 100px) and (max-width : 900px){
 
     .about{
+      
         padding: 8px;
         text-align: left;
         height: 550px;
+    }
+    .link-icons{
+        margin-top: 60%;
+        margin-left: 40%;
+
+        
     }
 
 

@@ -14,7 +14,7 @@
   .topbar{
     height: 67px;
     width: 100%;
-    background-color: rgb(38, 38, 38);
+    background-color: rgb(34, 15, 34);
     position: fixed;
     z-index: 7;
     
@@ -51,15 +51,15 @@
     width: 80vw;
     transform: translateY(95px);
     visibility: visible;
-    background-color: rgb(40, 9, 52) ;
+    background-color: rgb(23, 9, 28) ;
     color: white;
     border-radius: 16px;
     margin-left: 10vw;
     margin-right: 10vw;
     padding-top: 3px;
-    position: relative;
-    z-index: 3;
-    
+    /* position: fixed;
+    z-index: 10000;
+     */
     
   }
   
@@ -85,10 +85,12 @@
       width: 70vw;
       transform: translateY(60px);
       visibility: visible;
-      background-color: rgb(38, 15, 47) ;
+      background-color: rgb(30, 12, 37) ;
       color: white;
       border-radius: 16px;
       padding-top: 1px;
+      position: relative;
+      z-index: 10000;
      
       
     }

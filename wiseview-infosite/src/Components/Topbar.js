@@ -25,7 +25,7 @@ const Topbar = () => {
        <div className='menubar'> <IconButton onClick={handletoggle}>   <MenuOutlinedIcon sx = {{color :"white"}} className='bar'   fontSize='large'/> </IconButton> </div>
         <div className='closed'>
         
-       <h2>MEMBERS</h2>
+       <h4>MEMBERS</h4>
      <IconButton onClick={handletoggle } >  <CloseIcon className='close-icon' sx = {{color :"white"}}  fontSize='large'/></IconButton>  
     
       <Accordion className='accordion-text'>

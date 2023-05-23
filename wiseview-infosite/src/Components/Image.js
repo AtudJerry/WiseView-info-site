@@ -10,7 +10,7 @@ const Image = () => {
         <div className="intro-page">
           
       
-        <Link to= "/join-us">   <Button  color="secondary"  variant="outlined" size="large" className="button">Join Us</Button> </Link>
+        <Link to= "/join-us">   <Button  color="secondary"  variant="contained" size="large" className="button">Join Us</Button> </Link>
     
       <h3>A small community to exercise your<br></br> coding skills</h3>
 
