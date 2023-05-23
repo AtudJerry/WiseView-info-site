@@ -1,7 +1,8 @@
 .intro-page{
-    background-image: url('../backgroundPicture1.png');
+    background-image: url('../Images/backgroundPicture1.jpg');
     height: 700px;
     width: 100%;
+    margin-top: 70px;
 }
 .button{
     position: inherit;
@@ -20,10 +21,10 @@ h3{
 @media (min-width : 100px) and (max-width : 900px){
 
     .intro-page{
-        background-image: url('../backgroundPicture2.png');
+        background-image: url('../Images/backgroundPicture2.jpg');
         height: 320px;
         width: 100%;
-        margin-top: 60px;
+        margin-top: 75px;
     }
     .button{
     

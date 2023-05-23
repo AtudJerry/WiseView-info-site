@@ -51,7 +51,7 @@
     width: 80vw;
     transform: translateY(95px);
     visibility: visible;
-    background-color: rgb(112, 2, 155) ;
+    background-color: rgb(40, 9, 52) ;
     color: white;
     border-radius: 16px;
     margin-left: 10vw;
@@ -85,7 +85,7 @@
       width: 70vw;
       transform: translateY(60px);
       visibility: visible;
-      background-color: rgb(112, 2, 155) ;
+      background-color: rgb(38, 15, 47) ;
       color: white;
       border-radius: 16px;
       padding-top: 1px;

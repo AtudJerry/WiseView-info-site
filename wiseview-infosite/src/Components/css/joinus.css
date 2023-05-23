@@ -1,0 +1,10 @@
+.content{
+    transform: translateY(100px);
+    text-align: center;
+    
+
+}
+.return-button{
+    margin-left: 60px !important;
+    margin-top: 120px !important;
+}

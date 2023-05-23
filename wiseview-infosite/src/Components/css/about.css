@@ -1,0 +1,21 @@
+h2{
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.about{
+    padding: 8px;
+    text-align: left;
+    height: 200px;
+}
+@media (min-width : 100px) and (max-width : 900px){
+
+    .about{
+        padding: 8px;
+        text-align: left;
+        height: 550px;
+    }
+
+
+
+}
