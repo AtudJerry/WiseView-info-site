@@ -19,9 +19,9 @@ const About = () =>{
              Apply new learnings to build great solutions for local problems. Advance your skills, career, and network. Give back to your community by helping others learn. </p>
     
 
-    <div >link-icons
+    <div className='link-icons' >
 
-<a href="https://github.com/Wise-view"><GitHubIcon/></a> &nbsp; <a href="https://github.com/Wise-view"> <GroupWorkIcon/> </a>
+<a  href="https://github.com/Wise-view"><GitHubIcon fontSize="large" /></a> &nbsp; <a href="https://github.com/Wise-view"> <GroupWorkIcon  fontSize="large"/> </a>
 
 </div>
         </div>

@@ -8,3 +8,15 @@
     margin-left: 60px !important;
     margin-top: 120px !important;
 }
+
+
+
+@media (min-width : 100px) and (max-width : 900px){
+
+    .content{
+        transform: translateY(30px);
+        text-align: center;
+    }
+
+
+}

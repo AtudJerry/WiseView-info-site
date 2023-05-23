@@ -1,8 +1,8 @@
 .intro-page{
-    background-image: url('../Images/backgroundPicture1.jpg');
+    background-image: url('../Images/backgroundPicture1.png');
     height: 700px;
     width: 100%;
-    margin-top: 70px;
+    margin-top: 18px;
 }
 .button{
     position: inherit;
@@ -15,20 +15,20 @@ h3{
     font-family: cursive;
     margin-top: 420px;
     margin-left: 35px;
-    color:rgb(205, 193, 212)
+    color:rgb(24, 13, 31)
 }
 
 @media (min-width : 100px) and (max-width : 900px){
 
     .intro-page{
-        background-image: url('../Images/backgroundPicture2.jpg');
+        background-image: url('../Images/backgroundPicture2.png');
         height: 320px;
         width: 100%;
         margin-top: 75px;
     }
     .button{
     
-     transform: translate(20px, 158px);
+     transform: translate(6px, 158px);
      position: absolute;
      z-index: 1;
 
