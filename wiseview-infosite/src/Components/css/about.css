@@ -5,26 +5,36 @@ h2{
 }
 .about{
     padding: 8px;
-    text-align: left;
-    height: 600px;
+    text-align: start;
+    height: 800px;
 }
 .link-icons{
     margin-top: 30%;
     margin-left: 45%;
 }
+.card{
+    margin: auto;
+    padding: 5%;
+    box-shadow: 50%;
+}
 @media (min-width : 100px) and (max-width : 900px){
 
     .about{
       
-        padding: 8px;
-        text-align: left;
+        padding: 2px;
+        
         height: 550px;
     }
     .link-icons{
-        margin-top: 60%;
+        margin-top: 40%;
         margin-left: 40%;
 
         
+    }
+    .card{
+        margin: auto;
+        padding: 5%;
+        box-shadow: 50%;
     }
 
 
